@@ -34,6 +34,21 @@ class GraphQLUser {
         return Object.keys(postsById).map(id => new GraphQLPost(postsById[id]))
         .filter(post => post.authorId==this.id);
     }
+
+    /*posts() {     //easier to understand the js code
+        var ret;
+        var allPosts;
+        
+        allPosts = Object.keys(postsById).map(id => {
+            return new GraphQLPost(postsById[id]);
+        });
+
+        ret = allPosts.filter(post => {
+            return post.authorId == this.id;
+        });
+
+        return ret;
+    }*/
 }
 
 class GraphQLPost {
