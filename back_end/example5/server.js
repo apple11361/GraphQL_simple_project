@@ -13,4 +13,6 @@ app.use('/graphql', graphqlHTTP({
     graphiql: true
 }));
 
-app.listen("2996");
+const port = 2996;
+app.listen(port);
+console.log("Server is listening on " + port + "...");
