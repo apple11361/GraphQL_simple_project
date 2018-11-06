@@ -12,6 +12,12 @@ class Home extends Component {
                         My List
                     </button>
                 </Link>
+                {/* Link to Users.js */}
+                <Link to={"./users"}>
+                    <button variant="raised">
+                        My Users
+                    </button>
+                </Link>
             </div>
         );
     }
