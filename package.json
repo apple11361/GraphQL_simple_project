@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/apple11361/GraphQL_simple_project#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-graphql": "^0.6.12",
     "graphql": "^14.0.2",
